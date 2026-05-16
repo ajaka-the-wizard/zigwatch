@@ -17,5 +17,5 @@ pub fn main(init: std.process.Init) !void {
 
     try zigwatch.Greet(stdout_writer);
 
-    try stdout_writer.flush(); // Don't forget to flush!
+    try stdout_writer.flush();
 }
